@@ -13,11 +13,16 @@
             "providers": [
                 "Cardosso4\\GenerateModel\\GenerateModelServiceProvider"
             ]
+        },
+        "branch-alias": {
+            "dev-master": "1.x-dev"
         }
     },
     "authors": [
         {
-            "name": "Lucas Cardoso Saraiva <cardosso4@gmail.com>"
+            "name": "Lucas Cardoso Saraiva",
+            "email": "<cardosso4@gmail.com>",
+            "homepage": "https://github.com/cardosso4"
         }
     ],
     "require": {

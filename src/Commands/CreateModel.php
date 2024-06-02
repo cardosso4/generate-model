@@ -1,8 +1,8 @@
 <?php
 
-namespace cardosso4\GenerateModel\Commands;
+namespace Cardosso4\GenerateModel\GenerateModel\Commands;
 
-use cardosso4\GenerateModel\ModelMysql;
+use Cardosso4\GenerateModel\GenerateModel\ModelMysql;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Config;
 

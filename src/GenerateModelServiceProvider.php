@@ -1,8 +1,8 @@
 <?php
 
-namespace cardosso4\GenerateModel;
+namespace Cardosso4\GenerateModel;
 
-use cardosso4\GenerateModel\Commands\CreateModel;
+use Cardosso4\GenerateModel\GenerateModel\Commands\CreateModel;
 use Illuminate\Support\ServiceProvider;
 
 class GenerateModelServiceProvider extends ServiceProvider
