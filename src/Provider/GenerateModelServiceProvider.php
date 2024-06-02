@@ -1,6 +1,6 @@
 <?php
 
-namespace Cardosso4\GenerateModel;
+namespace Cardosso4\GenerateModel\Provider;
 
 use Cardosso4\GenerateModel\Commands\CreateModel;
 use Illuminate\Support\ServiceProvider;

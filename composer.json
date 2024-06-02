@@ -11,7 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Cardosso4\\GenerateModel\\GenerateModelServiceProvider"
+                "Cardosso4\\GenerateModel\\Provider\\GenerateModelServiceProvider"
             ]
         },
         "branch-alias": {
