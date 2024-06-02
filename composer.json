@@ -1,0 +1,21 @@
+{
+    "name": "cardosso4/generate-model",
+    "description": "Model generator for the laravel framework",
+    "type": "libraty",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cardosso4\\GenerateModel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Cardoso Saraiva <cardosso4@gmail.com>"
+        }
+    ],
+    "require": {
+        "illuminate/support": "self.version",
+        "illuminate/database": "self.version",
+        "illuminate/console": "self.version"
+    }
+}
