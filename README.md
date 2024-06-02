@@ -7,11 +7,9 @@
 - Mysql
 
 
-## Execute command
-- Run the php artisan command
-- In the command list, you will find the 'generate'
-
-execute: generate:model name_table
+## How to execute:
+- To run this command, run in the terminal: php artisan generate:model {table_name}
+- This command can be found in PHP artisan command list
 
 ---
 
