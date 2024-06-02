@@ -5,13 +5,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Cardosso4\\generate-model\\": "src/"
+            "Cardosso4\\GenerateModel\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "cardosso4\\generate-model\\src\\GenerateModelServiceProvider"
+                "Cardosso4\\GenerateModel\\GenerateModelServiceProvider"
             ]
         }
     },
