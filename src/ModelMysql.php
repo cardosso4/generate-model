@@ -1,6 +1,6 @@
 <?php
 
-namespace Cardosso4\GenerateModel\GenerateModel;
+namespace Cardosso4\GenerateModel;
 
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\DB;
