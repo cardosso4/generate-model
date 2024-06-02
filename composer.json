@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Cardosso4\\GenerateModel\\": "src/"
+            "Cardosso4\\generate-model\\": "src/"
         }
     },
     "extra": {
