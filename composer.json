@@ -14,8 +14,9 @@
         }
     ],
     "require": {
-        "illuminate/support": "self.version",
-        "illuminate/database": "self.version",
-        "illuminate/console": "self.version"
+        "php": "^7.0",
+        "illuminate/support": "^10.0",
+        "illuminate/database": "^10.0",
+        "illuminate/console": "^10.0"
     }
 }
