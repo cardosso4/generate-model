@@ -8,6 +8,13 @@
             "Cardosso4\\GenerateModel\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "cardosso4\\GenerateModel\\GenerateModelServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Lucas Cardoso Saraiva <cardosso4@gmail.com>"
