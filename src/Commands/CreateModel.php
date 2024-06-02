@@ -41,38 +41,44 @@ class CreateModel extends Command
 
         $dbConnection = Config::get('database.default');
 
-        $bodyModel = '';
+
         if($dbConnection == 'mysql'){
 
             $mysql = new ModelMysql($tableName,$this->nameClass);
             $bodyModel = $mysql->insertModelMysql();
 
-        }
+            if(!empty($bodyModel)){
 
-        if(!empty($bodyModel)){
+                switch ($this->generateFile($bodyModel)){
 
-            switch ($this->generateFile($bodyModel)){
+                    case 'created':
+                        $this->info('File '.$this->nameClass .' generated in the directory: '.$this->directory);
+                        break;
 
-                case 'created':
-                    $this->info('File '.$this->nameClass .' generated in the directory: '.$this->directory);
-                    break;
+                    case 'updated':
+                        $this->info('File '.$this->nameClass .' updated in the directory: '.$this->directory);
+                        break;
 
-                case 'updated':
-                    $this->info('File '.$this->nameClass .' updated in the directory: '.$this->directory);
-                    break;
+                    case 'no modification':
+                        $this->warn('File was not modified');
+                        break;
 
-                case 'no modification':
-                    $this->warn('File was not modified');
-                    break;
+                    default:
+                        $this->warn('It was not possible to generate the file');
 
-                default:
-                    $this->warn('It was not possible to generate the file');
+                }
 
+            }else{
+                $this->error("The table was not found: ".$tableName);
             }
 
         }else{
-            $this->error("The table was not found: {$tableName}");
+
+            $this->warn('"Unsupported database: '.$dbConnection);
+
         }
+
+
 
 
     }
