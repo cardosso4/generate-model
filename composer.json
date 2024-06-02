@@ -11,7 +11,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "cardosso4\\generate-model\\GenerateModelServiceProvider"
+                "cardosso4\\generate-model\\src\\GenerateModelServiceProvider"
             ]
         }
     },
