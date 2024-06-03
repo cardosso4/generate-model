@@ -26,9 +26,9 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "illuminate/support": ">=10.0",
-        "illuminate/database": ">=10.0",
-        "illuminate/console": ">=10.0"
+        "php": "^7.0 | ^8.0",
+        "illuminate/support": ">=6.0",
+        "illuminate/database": ">=6.0",
+        "illuminate/console": ">=6.0"
     }
 }
