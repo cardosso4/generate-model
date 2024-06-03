@@ -18,14 +18,11 @@ class CreateModel extends Command
     /**
      * The console command description.
      *
-     * @var string
      */
     protected $description = 'Create a new model';
 
     private $directory;
-    /**
-     * @var array|false|string|string[]|null
-     */
+
     private $nameClass;
 
 
