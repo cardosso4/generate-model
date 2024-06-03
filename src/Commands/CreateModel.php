@@ -22,11 +22,11 @@ class CreateModel extends Command
      */
     protected $description = 'Create a new model';
 
-    private string $directory;
+    private $directory;
     /**
      * @var array|false|string|string[]|null
      */
-    private string|array|null|false $nameClass;
+    private $nameClass;
 
 
     /**
