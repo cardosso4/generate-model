@@ -15,6 +15,7 @@ class CreateModel extends Command
      */
     protected $signature = 'generate:model {table}';
 
+
     /**
      * The console command description.
      *
